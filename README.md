@@ -19,30 +19,11 @@ config.json    Parameter file for experiments
 
 ## Quick Start
 
-### Build the LaTeX Paper
-
-```
-cd paper
-latexmk -pdf main.tex
-```
 
 ### Run the Python Demo
 
 ```
 python src/demo.py --config config.json
-```
-
-## Cite as
-
-When referencing this project, please cite the OSF preprint:
-
-```
-@misc{secl_preprint,
-  title  = {Self-Evolution Cyclic Loop (SECL)},
-  author = {Your Name},
-  year   = {2024},
-  url    = {https://osf.io/preprint-url}
-}
 ```
 
 ## License
